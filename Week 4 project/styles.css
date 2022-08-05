@@ -1,0 +1,671 @@
+body {
+    margin: 0px;
+    color: #492c2f;
+    
+    /* background-repeat: no-repeat; */
+    
+     font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+  
+}
+
+
+
+.image-wrapper {
+   
+    /* background-image: url(./beach-image.jpg);  */ */
+    /* background-position: center;   */
+    /* background-color: rgb(31, 162, 156);    */
+    /* background-blend-mode: lighten; */
+    /* background-repeat: no-repeat;  */
+    /* background-image: cover;  */
+
+}
+
+/* note: First page */
+.header-wrapper1 {
+    /* background-color: #26c1cf; */
+        /* height: 100vh; */
+        /* width: auto; */
+        /* background-image: url(/assets/beach-image.jpg);  */
+        /* background-position: center; */
+        /* background-color: #26c1cf;    */
+        /* background-blend-mode: lighten; */
+        /* background-repeat: no-repeat;  */
+        
+        /*flexbox */
+       
+        /* padding: 60px 100px; */
+        
+      }
+
+.right-column-navigation {
+   display: flex;
+   justify-content: right;
+   margin: 10;
+   
+   
+}   
+
+.header-wrapper1{
+    /* background-image: url(/assets/beach-image.jpg); */
+    /* background-color: #26c1cf; */
+}
+
+.left-column-intro {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #26c1cf;  
+
+    /* .p {
+        font-size: 30px;
+    } */
+
+
+}
+
+.slogan-bottom   {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.slogan {
+    font-size: 110px;
+    margin: 60px;
+}
+
+/* .left-column-intro {
+        height: 100vh;
+        width: 150vw;
+        /* background: rgb(227,168,158); */
+        
+        /* background-image: url(./trissa.jfif); */
+        /* display: flex; */
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* min-height: 50%; */
+        /* background-size: cover; */
+        /* background-position-x: 100%; */
+        /* background-attachment: fixed; */
+
+        /* background-position: right top; */
+
+
+
+.Impact {
+    /* background-color: #26c1cf; */
+    /* height: 460px; */
+    
+        /* background-image: url(/assets/beach-image.jpg); */
+        /* background-position: right; */
+        /* color: #492c2f; */
+        /* background-blend-mode: overlay; */
+        /* background-color: #26c1cf; */
+        /* color: #ffffff; */
+        
+                  
+}
+
+.header-wrapper2{
+    /* background-image: url(/assets/beach-image.jpg); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #D9928E;
+    
+}   
+.top-heading {
+    /* background-color: #26c1cf; */
+    font-size: 25px;
+    /* background-color: #D9928E; */
+    
+}
+
+
+.columns-wrapper { 
+    display: flex;
+    justify-content: center;
+    background-color: #D9928E;
+    
+
+    display: flex;
+    flex-direction: row;
+    
+    padding-bottom: 30px;
+
+}
+
+.flip-card1 {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+   
+    
+
+}
+
+.flip-card-inner1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card1:hover .flip-card-inner1{
+    transform: rotateY(180deg);
+}            
+    
+.card-front1, .card-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+
+.card-front1 {
+    background-color:#bbb;
+    color: black;
+}
+
+.card-back1 {
+    background-color: #26c1cf;
+    color: #492c2f;
+    transform: rotateY(180deg);
+    font-size: x-large;
+    
+}
+
+.adamas-image{
+    width: 200px;
+    height: 200px; 
+    padding-top: 20px;
+}
+.adamas-link{
+    text-decoration: none;
+    color: #492c2f;
+}
+
+.flip-card2 {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+   
+
+}
+
+.flip-card-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card2:hover .flip-card-inner2{
+    transform: rotateY(180deg);
+}            
+    
+.card-front2, .card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+
+.card-front2 {
+    background-color:#bbb;
+    color: black;
+}
+
+.card-back2 {
+    background-color: #26c1cf;
+    color: #492c2f;
+    transform: rotateY(180deg);
+    font-size: x-large;
+
+}
+
+.techmoms-image {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.flip-card3 {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+
+}
+
+.flip-card-inner3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card3:hover .flip-card-inner3{
+    transform: rotateY(180deg);
+}            
+    
+.card-front3, .card-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+
+.card-front3 {
+    background-color:#bbb;
+    color: black;
+}
+
+.card-back3 {
+    background-color: #26c1cf;
+    color: #492c2f;
+    transform: rotateY(180deg);
+    font-size: x-large;
+
+}
+
+.LITUtah-image {
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+
+
+
+.right-sub-heading {
+
+}
+
+
+
+/* .right-right-sub-heading {
+
+} */
+
+.About-Me {
+    /* height: 380px; */
+        /* background-image: url(./family\ pics.jpg);
+        background-position: center;
+        color: #492c2f;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: soft-light;  */
+        /* background-color: #54bab5; */
+        /* color: #ffffff; */
+           
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-image: url(/assets/beach-image.jpg); */
+    background-color: #26c1cf;
+}
+
+.top-heading {
+    /* background-color: #34b7b1; */
+    
+    
+    /* background-position: center; */
+    
+}
+
+.card-front{
+    color: #492c2f;
+    background-color: #26c1cf;
+    border: solid 1px black;
+    filter: grayscale(70%);
+}
+
+.columns-wrapper2 { 
+    display: flex;
+    justify-content: left;
+    /* background-color: #34b7b1; */
+    background-color: #26c1cf;
+    /* image-resolution: sepia; */
+   
+}
+
+.columns-wrapper3 { 
+    display: flex;
+    justify-content: left;
+    /* background-color: #34b7b1; */
+    background-color: #26c1cf;   
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+    
+      
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: auto;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+   
+    
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #492c2f;
+    color: white;
+    font-size: 50px;
+    padding: 16px 32px;
+  }
+
+
+
+
+.columns-wrapper4 { 
+    display: flex;
+    justify-content: right;
+    /* background-color: #34b7b1; */
+    background-color: #26c1cf;   
+}
+
+
+.Mindset {
+    /* height: 150px;
+        background-image: url(./beach-image.jpg);
+        background-position: 50% 50%;
+        background-size: auto;
+        color: #492c2f;
+        background-blend-mode: soft-light; */ */
+        /* background-color: #54bab5; */
+        /* color: #ffffff; */
+        
+}
+
+
+
+/* .left-sub-heading { */
+
+}
+
+/* .sub-column1 { */
+
+}
+
+/* .right-sub-heading { */
+
+}
+
+/* .sub-column2{ */
+
+}
+
+
+
+
+
+.Lets-Connect {
+    height: 300px;
+    background-color: #26c1cf;   
+    color: #492c2f;
+    
+}
+.top-heading{
+    text-align: center;
+}
+.footer-wrapper{
+    background-color: #26c1cf;  
+}
+.parallax {
+    background-image: url(./assets/beach-image.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-content-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.column-title {
+
+}
+
+
+.header-styles {
+
+}
+
+.center-column {
+
+}
+
+.logo {
+
+}
+
+.logo img {
+
+}
+
+.link-wrapper {
+
+}
+
+.nav-link {
+
+}
+
+.nav-link:hover {
+
+}
+
+.right-column {
+
+}
+
+.icon {
+
+}
+
+.icon-mr {
+
+}
+
+.icon-ml {
+
+}
+
+
+/* .footer {
+  
+    position: sticky;
+    height: 500px;
+    z-index: -1;
+    
+}
+
+.category {
+    top: 50;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.title {
+    top: 50;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    bottom: 500px;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article {
+    background-image: linear-gradient(
+        to bottom,
+        transparent 5px,
+        #F5A623 50px,
+        #F5A623 calc(100% - 50px),
+        transparent 0
+    );
+    margin: auto auto 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    bottom: 100px;
+    margin: 50px auto auto auto;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+     
+/* Popup container - can be anything you want
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+/* Popup arrow */
+  /* .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+/* Toggle this class - hide and show the popup */
+  /* .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  } */
+
+  /* Add animation (fade in the popup) */
+/* @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  } */
+
+  /* @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  } */
+
+ */ */
+
+ */
+
+.features-section {
+
+}
+
+
+
+
+
+.column:hover {
+
+}
+
+.column-icon {
+
+}
+
+
+
+.column-title:hover {
+
+}
+
+.column-content {
+
+}
